@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+    color: #5a5a5a;
+}
+
+p{
+    color: #f1f1f1;
+}
+
+img{
+    cursor: pointer;
+}
+.usericone{
+    height: 10px;
+}
+nav{
+    padding: 10px 2px;
+    box-shadow: 0 0 10px rgba( 0,0,0,0.2);
+    z-index: 10;
+    width: 100%;
+}
+.nav-left .nav-manu{
+    width: 22px;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+.nav-left .nav-logo{
+    height: 20px;
+    margin-right: 25px;
+    
+}
+
+
+
+
+
+.search-bar{
+    width: 350px;
+    padding: 2px 6px;
+}
+.nav-middle .search .mick{
+    height: 25px;
+    margin-left: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-right i{
+    width: 30px;
+    margin-right: 25px;
+    
+}
+.nav-right .usericone{
+    width: 35px;
+    height: 35px;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+.sidebar {
+    width: 160px;
+    height: 100vh;
+    padding-left: 1%;
+    padding-top: 80px;
+    
+}
+.sidebar .shortcuts img{
+    height: 20px;
+    width: 20px;
+}
+.sidebar .shortcuts a{
+    display: flex;
+    height: 30px;
+    margin-bottom: 20px;
+    width: fit-content; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.sidebar .shortcuts a p{
+    style: "nune";
+}
