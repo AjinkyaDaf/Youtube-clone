@@ -54,23 +54,6 @@ nav{
    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-right i{
     width: 30px;
     margin-right: 25px;
@@ -89,11 +72,12 @@ nav{
 
 
 .sidebar {
-    width: 160px;
+    float: left;
+    width: 13%;
     height: 100vh;
     padding-left: 1%;
     padding-top: 80px;
-    
+   
 }
 .sidebar .shortcuts img{
     height: 20px;
@@ -110,4 +94,45 @@ nav{
 }
 .sidebar .shortcuts a p{
     style: "nune";
+}
+.video-conatiner{
+    float: right;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 240px;
+    padding-right: 2%;
+    
+}
+.coloum2{
+    padding-top: 70px;
+}
+.card1{
+   width: 33%;
+   margin-right: 15px;
+   
+}
+.card2{
+    width: 33%;
+    margin-right: 15px;
+}
+.card3{
+    width: 33%;
+   
+}
+.image img{
+    width: 100%;
+}
+.card1 .logo{
+    padding: 10px;
+}
+.card2 .logo{
+    padding: 10px;
+}
+.card3 .logo{
+    padding: 10px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
 }
